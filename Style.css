@@ -1,0 +1,18 @@
+*{
+    font-style: oblique;
+}
+h1{
+    color: aquamarine;
+}
+th,i{
+    font-weight: lighter;
+}
+p>sup{
+    color:blue;
+}
+#one{
+    color:yellow;
+}
+.one{
+    background-color: blue;
+}
