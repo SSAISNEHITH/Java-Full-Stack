@@ -1,0 +1,17 @@
+body {
+    background-color: peachpuff;
+   
+}
+img{
+    transition: transform 10s linear 3s;
+}
+img:hover{
+    transform: rotate(50deg) 10s linear 3s;
+}
+p{
+    transition: transform ;
+}
+p:hover{
+    background-color: lightblue;
+    transform: translate(2cm,5cm);
+}
