@@ -1,0 +1,13 @@
+body{
+    height:2cm;
+/*Gradiant*/
+    /*background: linear-gradient(to top,rgb(164, 199, 164), pink);*/
+    /*background:radial-gradient(circle,skyblue,gray,teal,brown,red); */
+    /*background:conic-gradient(skyblue,gray,teal,brown,red);*/
+    /*background: linear-gradient(22deg,#BA6A4C,#FFE3E3,#E8DDB4)*/
+    display:flex;
+    flex-direction:row-reverse;
+    /*justify-content: space-evenly;*/
+    flex-wrap: WRAP;
+    GAP:2CM;
+    }
