@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Licence Application</title>
+    <script src="licence.js" defer></script>
+</head>
+<body>
+
+    <h1 align="center">Andhra Pradesh Transport Department</h1>
+    <h2 align="center">Driving Licence Application</h2>
+
+    <form id="details">
+
+        <label>Name:</label>
+        <input type="text" id="Name" required>
+        <br><br>
+
+        <label>E-mail:</label>
+        <input type="email" id="Email" required>
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" id="Phone" required>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" id="Age" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="text" id="Gender" required>
+        <br><br>
+
+        <label>Vehicle Type:</label>
+        <input type="text" id="Vehicle" required>
+        <br><br>
+
+        <label>Wheeler:</label>
+        <input type="text" id="Wheeler" required>
+        <br><br>
+
+        <label>Expiry Date:</label>
+        <input type="date" id="Exp" required>
+        <br><br>
+
+        <label>Photo:</label>
+        <input type="file" id="Image" accept="image/*" required>
+        <br><br>
+
+        <button type="submit">Generate Licence</button>
+
+    </form>
+
+    <hr>
+
+    <div id="licenceCard" style="display:none;">
+
+        <h2 align="center">DRIVING LICENCE</h2>
+
+        <img id="lImage" width="120" height="150" align="right">
+
+        <p><b>Licence Number:</b> <span id="licenceNo"></span></p>
+
+        <p><b>Name:</b> <span id="lName"></span></p>
+
+        <p><b>E-mail:</b> <span id="lEmail"></span></p>
+
+        <p><b>Phone Number:</b> <span id="lPhone"></span></p>
+
+        <p><b>Age:</b> <span id="lAge"></span></p>
+
+        <p><b>Gender:</b> <span id="lGender"></span></p>
+
+        <p><b>Vehicle Type:</b> <span id="lVehicle"></span></p>
+
+        <p><b>Wheeler:</b> <span id="lWheeler"></span></p>
+
+        <p><b>Expiry Date:</b> <span id="lExp"></span></p>
+
+    </div>
+
+</body>
+</html>
