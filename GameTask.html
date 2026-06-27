@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KitKat Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <h2>🐱 Cat Chase Rat Game</h2>
+  <p>Use arrow keys to move the cat and catch the rat!</p>
+  <div id="game-area">
+    <div id="chocolate">🐱</div>
+    <div id="candy">🐭</div>
+    <div id="game-over" class="hidden">
+      <div class="message">
+        <strong>Game Over</strong>
+        <p id="game-over-text">You didn’t react in time!</p>
+      </div>
+    </div>
+  </div>
+  <p id="score">Score: 0</p>
+  <script src="game.js"></script>
+</body>
+</html>
