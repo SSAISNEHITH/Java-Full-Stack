@@ -59,9 +59,9 @@ for(let i=1;i<=30;i++){
 }
 
 
-//Nesterd
+//Nested
 
-//Nesterd-if statement
+//Nested-if statement
 
 let user1="sai";
 let pass1="sai@pass";
@@ -98,9 +98,9 @@ if((person%2)==0){
     console.log("Gift deliveried to person "+ person);
     gift--;
     lp=person;
-}}
 }
-else{
+}
+
     console.log(lp+"is person who got last gift");
 }
 
@@ -123,12 +123,4 @@ function sum(a,b){
     return sum;
 }
 sum(1,2);
-
-
-
-
-
-
-
-
 

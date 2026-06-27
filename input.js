@@ -10,7 +10,7 @@ function Turn_on(){
 function Turn_off(){
     let light = document.getElementById("light");
     light.src = "light-turnoff.jpg";
-     let colour= document.getElementById("cat");
+    let colour= document.getElementById("cat");
     colour.style.backgroundColor = "Black";
 }
 let greetings=["Good Morning","Good Afternoon","Good Evening","Good Night  "];
