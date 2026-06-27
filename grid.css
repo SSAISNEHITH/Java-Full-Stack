@@ -1,0 +1,29 @@
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.i1{
+    background: lightcoral;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+.friends{
+    display: grid;
+    grid-template-rows: 200px 1fr  ;
+    grid-template-columns: 50px 100px 50px;
+    gap: 10px;
+}
+header{
+    grid-column: 1/3;
+    background: lightblue;
+}
+main{
+    grid-column: 1/3;
+    background: lightgreen;
+}
+footer{
+    grid-column: 1/3;
+    background: lightpink;
+}
